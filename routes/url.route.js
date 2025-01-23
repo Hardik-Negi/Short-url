@@ -3,7 +3,6 @@ const {generateNewShortURL,handleRedirectURL,handleGetAnalytics}=require('../con
 
 const router=express.Router();
 
-
 router.post('/',generateNewShortURL);
 router.get('/:shortid',handleRedirectURL)
 router.get('/analytics/:shortid',handleGetAnalytics)
