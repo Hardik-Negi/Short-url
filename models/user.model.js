@@ -13,8 +13,14 @@ email:{
 },
 password:{
    type:String,
-   required:true
-}
+   required:true,
+   default:'Normal'
+},
+role:{
+   type:String,
+   required:true,
+} 
+
 },{timestamps:true})
 
 
